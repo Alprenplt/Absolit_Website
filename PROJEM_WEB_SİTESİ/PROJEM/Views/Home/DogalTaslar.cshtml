@@ -1,0 +1,106 @@
+﻿
+@{
+    ViewBag.Title = "DogalTaslar";
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+
+<body>
+    <section>
+        <main>
+            <div>
+                <div class="icerik">
+                    <img src="~/images/spinel.jpg" alt="" class="rsm" />
+
+                    <h2>Spinel</h2>
+                    <button type="button" class="btn btn-dark">
+
+                        @Html.ActionLink("İNCELE", "Spinel", "Home", new { @class = "btnDevam" })
+                    </button>
+                </div>
+                <div class="icerik">
+                    <img src="~/images/akik.jpg" alt="" class="rsm" />
+
+                    <h2>Akik</h2>
+                    <button type="button" class="btn btn-dark">
+
+                        @Html.ActionLink("İNCELE", "Akik", "Home", new { @class = "btnDevam" })
+                    </button>
+                </div>
+
+                <div class="icerik">
+                    <img src="~/images/akuaramin2.jpg" alt="" class="rsm" />
+
+                    <h2>Akuamarin</h2>
+                    <button type="button" class="btn btn-dark">
+                        @Html.ActionLink("İNCELE", "Akuamarin", "Home", new { @class = "btnDevam" })
+                    </button>
+                </div>
+
+                <div class="icerik">
+                    <img src="~/images/barit.jpg" alt="" class="rsm" />
+
+                    <h2>Barit</h2>
+                    <button type="button" class="btn btn-dark">
+                        @Html.ActionLink("İNCELE", "Barit", "Home", new { @class = "btnDevam" })
+                    </button>
+                </div>
+
+                <div class="icerik">
+                    <img src="~/images/gunes.jpg" alt="" class="rsm" />
+
+                    <h2>Güneş Taşı</h2>
+                    <button type="button" class="btn btn-dark">
+                        @Html.ActionLink("İNCELE", "Gunestası", "Home", new { @class = "btnDevam" })
+                    </button>
+                </div>
+
+                <div class="icerik">
+                    <img src="~/images/kaplan-gozu.jpg" alt="" class="rsm" />
+
+                    <h2>Kaplan Gözü</h2>
+                    <button type="button" class="btn btn-dark">
+                        @Html.ActionLink("İNCELE", "KaplanGözü", "Home", new { @class = "btnDevam" })
+                    </button>
+                </div>
+
+                <div class="icerik">
+                    <img src="~/images/iyolit.jpg" alt="" class="rsm" />
+
+                    <h2>İyolit</h2>
+                    <button type="button" class="btn btn-dark">
+                        @Html.ActionLink("İNCELE", "İyolit", "Home", new { @class = "btnDevam" })
+                    </button>
+                </div>
+                <div class="icerik">
+                    <img src="~/images/mercan.jpg" alt="" class="rsm" />
+
+                    <h2>Mercan</h2>
+                    <button type="button" class="btn btn-dark">
+                        @Html.ActionLink("İNCELE", "Mercan", "Home", new { @class = "btnDevam" })
+                    </button>
+                </div>
+
+
+                <button type="button" class="btn btn-dark">
+                    <a href="dogaltaslar.html"> Başa Dön</a>
+                </button>
+            </div>
+           
+
+        </main>
+    </section>
+    
+    
+    
+</body>
+</html>
